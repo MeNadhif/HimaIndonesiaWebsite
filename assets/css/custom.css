@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap");
+
+.font-bold {
+  font-family: "Roboto";
+  font-weight: 900;
+}
+
+.font-medium {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.font-thin {
+  font-family: "Roboto";
+  font-weight: 300;
+}
+
+.bg-darkblue {
+  background: #03254c;
+}
+
+.bg-birumuda {
+  background: #e4eef8;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.active-button {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  padding-left: 1em;
+  padding-right: 100em;
+}

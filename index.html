@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.css" />
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-darkblue">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#">
+          <img src="assets/images/logo.svg" alt="HimaIndonesia" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-light navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link text-black fs-6 font-medium mx-2 active-button"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="
+                  nav-link
+                  dropdown-toggle
+                  text-white
+                  font-medium
+                  fs-6
+                  mx-2
+                "
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Profile Organisasi
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item font-medium fs-6" href="#">Kabinet</a>
+                </li>
+                <li>
+                  <a class="dropdown-item font-medium fs-6" href="#"
+                    >Struktur</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item font-medium fs-6" href="#"
+                    >Sejarah Organisasi</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white font-medium fs-6 mx-2" href="#"
+                >Artikel</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white font-medium fs-6 mx-2" href="#"
+                >Galery</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Banner-->
+    <div class="position-relative">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <div class="mt-5 position-absolute">
+              <br />
+              <br />
+              <br />
+              <h1 class="font-bold h1">
+                <span class="text-danger">Welcome</span>
+                to
+              </h1>
+              <h1 class="font-bold">Official Website</h1>
+              <h1 class="font-bold">
+                HIMA <span class="text-danger">INDONESIA</span>
+              </h1>
+              <div
+                class="
+                  btn btn-primary
+                  rounded-pill
+                  text-white
+                  font-medium
+                  px-4
+                  bg-darkblue
+                "
+              >
+                Get Started
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="img-fluid" src="./assets/images/Banner.png" alt="" />
+    </div>
+
+    <!--Carousel -->
+    <div class="pt-5 bg-birumuda">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img
+            src="assets/images/Poster1.png"
+            class="img-fluid rounded-4"
+            alt="..."
+          />
+        </div>
+        <div class="item">
+          <img
+            src="assets/images/Poster2.png"
+            class="img-fluid rounded-4"
+            alt="..."
+          />
+        </div>
+        <div class="item">
+          <img
+            src="assets/images/Poster3.png"
+            class="img-fluid rounded-4"
+            alt="..."
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        stagePadding: 300,
+        loop: true,
+        margin: 40,
+        nav: false,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 1,
+          },
+          1000: {
+            items: 1,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
