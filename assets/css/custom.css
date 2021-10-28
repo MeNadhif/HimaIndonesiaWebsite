@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 .font-bold {
   font-family: "Roboto";
   font-weight: 900;
@@ -34,4 +38,77 @@
   border-radius: 20px;
   padding-left: 1em;
   padding-right: 100em;
+}
+
+.bg-latestNews {
+  background-image: url(../images/Background-LatestNews.png);
+  background-repeat: no-repeat;
+  background-size: 90vmax;
+  background-position: top;
+}
+
+.bg-footer {
+  background-image: url(../images/Footer.png);
+  background-repeat: no-repeat;
+  background-size: 90vmax;
+  left: 0;
+  right: 0;
+  top: 28.21%;
+  bottom: 0;
+  background-position: top;
+}
+
+.bg-detail {
+  background-image: url(../images/detailNews1.png);
+  background-repeat: no-repeat;
+  width: auto;
+  height: 40rem;
+  left: 0;
+  right: 0;
+  top: 28.21%;
+  bottom: 0;
+  background-position: center;
+}
+
+.footer-heading {
+  font-size: 18px;
+  color: #fff;
+  position: relative;
+}
+.footer-heading:after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: "";
+  width: 40px;
+  height: 2px;
+  background: #1dc9ff;
+}
+
+.next-heading {
+  font-size: 18px;
+  color: black;
+  position: relative;
+}
+.next-heading:after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: "";
+  width: 60px;
+  height: 2px;
+  background: black;
+}
+
+.text-abu {
+  color: #5e5e5e;
+}
+
+.text-red {
+  color: #ff0000;
+}
+
+.text-justify {
+  text-align: justify;
+  text-indent: 2rem;
 }
