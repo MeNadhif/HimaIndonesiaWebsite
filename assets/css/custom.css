@@ -41,7 +41,7 @@ html {
 }
 
 .bg-latestNews {
-  background-image: url(../images/Background-LatestNews.png);
+  background-image: url(../images/home/Background-LatestNews.png);
   background-repeat: no-repeat;
   background-size: 90vmax;
   background-position: top;
@@ -59,10 +59,22 @@ html {
 }
 
 .bg-detail {
-  background-image: url(../images/detailNews1.png);
+  background-image: url(../images/detailArtikel/detailNews1.png);
   background-repeat: no-repeat;
   width: auto;
   height: 40rem;
+  left: 0;
+  right: 0;
+  top: 28.21%;
+  bottom: 0;
+  background-position: center;
+}
+
+.bg-detail1 {
+  background-image: url(../images/detailArtikel/detailNews2.png);
+  background-repeat: no-repeat;
+  width: auto;
+  height: 20rem;
   left: 0;
   right: 0;
   top: 28.21%;
@@ -111,4 +123,20 @@ html {
 .text-justify {
   text-align: justify;
   text-indent: 2rem;
+}
+
+.rounded-galeri {
+  border-radius: 20px !important;
+}
+
+.back1 {
+  background-color: #f7fbff;
+}
+
+.box {
+  background-color: #03254c;
+}
+
+.rounded-struktur {
+  border-radius: 10px !important;
 }
